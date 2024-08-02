@@ -1,0 +1,23 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "stock photo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcask/pcat.git"
+  },
+  "keywords": [
+    "stock",
+    "photo"
+  ],
+  "author": "sezer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcask/pcat/issues"
+  },
+  "homepage": "https://github.com/pcask/pcat#readme"
+}
