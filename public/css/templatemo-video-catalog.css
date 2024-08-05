@@ -171,22 +171,35 @@ h2, p { color: #666666; }
 
 .tm-btn-cta:before { font-size: 180%; }
 .tm-btn-download:before { font-size: 120%; }
+.tm-btn-edit:before { font-size: 120%; }
+.tm-btn-trash:before { font-size: 120%; }
 .tm-btn-submit:before { font-size: 120%; }
 .tm-icon-down:before { content: '\f078'; }
 .tm-icon-download:before { content: '\f019'; }
+.tm-icon-edit:before { content: '\f044'; }
+.tm-icon-trash:before { content: '\f2ed'; }
 .tm-icon-submit:before { content: '\f1d8'; }
 .tm-icon-submit:hover:before { top: 18px; }
 .tm-btn-cta:hover { color: white; }
 
 .tm-btn-download:hover,
 .tm-btn-download:focus,
+.tm-btn-edit:hover,
+.tm-btn-edit:focus,
+.tm-btn-trash:hover,
+.tm-btn-trash:focus,
 .tm-btn-submit:hover,
 .tm-btn-submit:focus {
     color: white;
     background-color: #3399CC;
 }
 
-.tm-btn-download span { padding-top: 10px; }
+.tm-btn-download, 
+.tm-btn-edit, 
+.tm-btn-trash span { 
+    padding-top: 10px; 
+}
+
 .tm-btn-small { 
     padding: 10.5px 35px;
     font-size: 1.2rem; 
@@ -206,7 +219,7 @@ h2, p { color: #666666; }
 }
 
 .tm-page-title { font-size: 2.5rem; }
-.tm-catalog-item-list { justify-content: space-between; }
+.tm-catalog-item-list { justify-content: start; }
 
 .tm-catalog-item {
     max-width: 462px;
@@ -333,7 +346,9 @@ h2, p { color: #666666; }
 .tm-text-link { color: #3399CC; }
 
 .tm-likes-box,
-.tm-btn-download {
+.tm-btn-download, 
+.tm-btn-edit,
+.tm-btn-trash {
     width: 280px;
     height: 60px;
 }
